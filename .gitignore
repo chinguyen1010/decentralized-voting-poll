@@ -25,12 +25,11 @@ pnpm-debug.log*
 # OS temp files
 Thumbs.db
 
-# Optional: lock files (you can remove this if you want reproducible builds)
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
 
-# Typechain generated files (if using Typechain)
+# Typechain generated files 
 typechain/
 typechain-types/
 
