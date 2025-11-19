@@ -108,7 +108,7 @@ The contract provides all functionality needed for a real poll:
     
 The constructor enforces a real constraint: require(_options.length >= 2, "Need at least two options");
 
-##A comprehensive suite of tests to validate the smart contract’s functionality
+## A comprehensive suite of tests to validate the smart contract’s functionality
   
 Automated tests in test/DecentralizedVotingPoll.t.js (has 5 passing tests)
 
@@ -133,7 +133,7 @@ Test 5: Multiple users
   - Several distinct addresses voting for different options yield the correct aggregate tallies.
 
 
-##Full project life-cycle:
+## Full project life-cycle:
 
 README.md — problem, solution, technical explanation, how to run tests, and how to deploy.
 
@@ -145,7 +145,7 @@ contracts/DecentralizedVotingPoll.sol — implementation.
 
 test/DecentralizedVotingPoll.t.js — verification.
 
-##Data Structures 
+## Data Structures 
 
 1. Poll info
 
@@ -162,7 +162,7 @@ votes[optionId] //number of votes for each option
 hasVoted[address]  // true / false
 
 
-##API Workflow (How someone uses the contract)
+## API Workflow (How someone uses the contract)
 
 constructor(string title, string[] options)
 
