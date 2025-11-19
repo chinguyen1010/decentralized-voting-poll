@@ -1,1 +1,41 @@
-node_modules
+# Node modules
+node_modules/
+
+# Hardhat build output
+artifacts/
+cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# OS temp files
+Thumbs.db
+
+# Optional: lock files (you can remove this if you want reproducible builds)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Typechain generated files (if using Typechain)
+typechain/
+typechain-types/
+
+# Coverage reports
+coverage/
+coverage.json
+
+
