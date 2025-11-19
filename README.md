@@ -3,6 +3,28 @@ Decentralized Voting Poll is an on-chain voting application. A simple, on-chain 
 
 A poll creator deploys a smart contract, defines a set of options, and then any blockchain address can cast exactly one vote. Votes and tallies are stored directly on the blockchain, so the poll is transparent and cannot be secretly edited by the poll owner.
 
+Problem Statement: Current online polls can be easily manipulated, and
+transparency is often lacking.
+
+● Proposed Solution: A simple, on-chain voting system where a single,
+whitelisted address (the poll creator) can deploy a contract and define
+options. Each user can only vote once.
+
+●Core Smart Contract Logic:
+
+○ Store a list of options (e.g., an array of strings).
+
+○ Store the vote count for each option (e.g., a mapping of option ID to
+integer count).
+
+○ Maintain a list of voters to prevent double-voting (e.g., a mapping of
+address to boolean voted).
+
+○ A function vote(uint optionId) that checks if the address has voted
+and then increments the count.
+
+
+
 ## Technical SDKs + blockchain features
 
 1. Language / runtime:
