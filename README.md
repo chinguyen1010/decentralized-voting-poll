@@ -182,7 +182,7 @@ function getResults() external view returns (uint256[] memory)
 
 
 
-##System architecture
+## System architecture
 
 <img width="1376" height="534" alt="Screenshot 2025-11-19 at 5 02 23 AM" src="https://github.com/user-attachments/assets/801858e2-4aaf-483d-904e-7b7587dc47d9" />
 
