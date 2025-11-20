@@ -1,4 +1,4 @@
-# Decentralized-Voting-Poll
+# Decentralized-Voting-Poll (accredited to BUBlockchain Hackathon)
 Decentralized Voting Poll is an on-chain voting application. A simple, on-chain voting system where a single, whitelisted address (the poll creator) can deploy a contract and define options. Each user can only vote once. 
 
 A poll creator deploys a smart contract, defines a set of options, and then any blockchain address can cast exactly one vote. Votes and tallies are stored directly on the blockchain, so the poll is transparent and cannot be secretly edited by the poll owner.
